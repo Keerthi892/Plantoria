@@ -4,7 +4,7 @@ import "./global.css";
 import { Toaster } from "../client/components/ui/toaster";
 import { createRoot } from "react-dom/client";
 import { Toaster as Sonner } from "../client/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { TooltipProvider } from "../client/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
